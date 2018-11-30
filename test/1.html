@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="../biaoPopup.css">
+
+<!--用户HTML开始-->
+<button id="trigger">登录</button>
+<div id="popup">
+  <form>
+    <div>
+      用户名：
+      <input type="text">
+    </div>
+    <div>
+      密码：
+      <input type="text">
+    </div>
+    <div>
+      <button>提交</button>
+    </div>
+  </form>
+</div>
+
+<script src="../biaoPopup.js"></script>
+<script>
+  biaoPopup.boot('#trigger', '#popup', {
+    // position: 'left-top',
+    // keyToHide: 'a',
+    // on: 'dblclick',
+    // offsetX: 100,
+    // offsetY: 100,
+  });
+</script>
